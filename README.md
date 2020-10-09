@@ -5,7 +5,7 @@
 ## My hashing function implementation
 
 My idea for this task is very simple:
- * Default string "**default_str**" of 256 bits is being defined. In this case i have taken a small piece from "O Fortuna" (a well-known medieval Latin poem which is a part of the collection of 24 poems known as the "Carmina Burana").
+ * Default string "**default_str**" of 256 bits is being defined. (*In this case i have taken a small piece from "O Fortuna" - a well-known medieval Latin poem which is a part of the collection of 24 poems known as the "Carmina Burana").*
  * A string "**str**" that we want to generate hash from is taken.
  * And these two are being mixed.
  
