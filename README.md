@@ -38,8 +38,23 @@ Here you can see the code of the mixing part. Basically, we are playing with str
 
 ## How do we know that this algorythm works?
  
-### 1) Input can be string of any size
+### 1) Input can be string of any size.
 
-### 2) Output is always the same size
+### 2) Output is always the same size.
 My hash is 256-bit size which is 64 characters.
  
+![Capture](https://user-images.githubusercontent.com/57493215/96168614-a9b1a700-0f29-11eb-825d-96da05794ad3.PNG)
+![Capture2](https://user-images.githubusercontent.com/57493215/96168801-f6957d80-0f29-11eb-93be-cdc1e3b2e215.PNG)
+
+### 3) The function is deterministic. Output is not random.
+
+### 4) Hashing is done somewhat quickly.
+My hashing algorythm can has 789 strings in 2.6 s. Not the worst results, but it could be quicker.
+
+### 5) It is practically impossible to find an input by having only an output.
+
+### 6) It is practically impossible to find two strings m1 and m2 that hash(m1) = hash(m2).
+100 000 pairs of random strings were tested and no identical hashes were found;
+
+### 7) Even slightly changed input causes completely different output.
+
