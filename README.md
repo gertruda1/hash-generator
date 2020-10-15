@@ -49,7 +49,7 @@ My hash is 256-bit size which is 64 characters.
 ### 3) The function is deterministic. Output is not random.
 
 ### 4) Hashing is done somewhat quickly.
-My hashing algorythm can has 789 strings in 2.6 s. Not the worst results, but it could be quicker.
+My hashing algorythm can hash 789 strings in 2.6 s. Not the worst results, but it could be quicker.
 
 ### 5) It is practically impossible to find an input by having only an output.
 
