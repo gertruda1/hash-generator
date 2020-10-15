@@ -77,7 +77,7 @@ Hash of the second string:
 
 ## Conclusion
 
-All in all, my hashing function is good it completes all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
+All in all, my hashing function is good, it completes all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
 
 ## Releases:
 
