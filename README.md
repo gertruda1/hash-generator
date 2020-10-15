@@ -6,8 +6,8 @@ Program takes string input and outputs generated hash of the string.
 
 ## Installation instructions
 
- * Download the latest release code here ()
- * Install g++ compiler (GCC).
+ * Download the latest release code here ([v1.0](https://github.com/gertruda1/hash-generator/releases/tag/v1.0))
+ * Install g++ compiler ([GCC](https://gcc.gnu.org/)).
  * Compile program using command line *g++ bandomisnaujo.cpp -o exe*
  * Run program *exe*.
 
@@ -78,3 +78,9 @@ Hash of the second string:
 ## Conclusion
 
 All in all, my hashing function is good it completes all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
+
+## Releases:
+
+[v1.0](https://github.com/gertruda1/hash-generator/releases/tag/v1.0)
+
+[v0.2](https://github.com/gertruda1/hash-generator/releases/tag/V0.2)
