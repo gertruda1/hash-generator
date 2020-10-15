@@ -58,3 +58,23 @@ My hashing algorythm can has 789 strings in 2.6 s. Not the worst results, but it
 
 ### 7) Even slightly changed input causes completely different output.
 
+First string:
+
+![InkedCapture3_LI](https://user-images.githubusercontent.com/57493215/96176204-b38cd780-0f34-11eb-98f6-ad88df0e8877.jpg)
+
+Hash of the first string:
+
+![Capture4](https://user-images.githubusercontent.com/57493215/96175983-5c870280-0f34-11eb-907a-1bbdba443136.PNG)
+
+Second string with one changed simbol:
+
+![Capture](https://user-images.githubusercontent.com/57493215/96176618-4463b300-0f35-11eb-840d-4743afde81e8.PNG)
+
+Hash of the second string:
+
+![Capture2](https://user-images.githubusercontent.com/57493215/96176676-56455600-0f35-11eb-8c88-1d591dfd035f.PNG)
+
+
+## Conclusion
+
+All in all, my hashing function is good it completes all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
