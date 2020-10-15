@@ -38,8 +38,8 @@ Here you can see the code of the mixing part. Basically, we are playing with str
 
 ## How do we know that this algorythm works?
  
-### Input can be string of any size
+### 1) Input can be string of any size
 
-### Output is always the same size
+### 2) Output is always the same size
 My hash is 256-bit size which is 64 characters.
-
+ 
