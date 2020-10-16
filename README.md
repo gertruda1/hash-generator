@@ -75,6 +75,20 @@ Hash of the second string:
 ![Capture2](https://user-images.githubusercontent.com/57493215/96176676-56455600-0f35-11eb-8c88-1d591dfd035f.PNG)
 
 
+## Collision tests
+
+**Test 1**
+
+In this test we take 100 000 pairs of same sized strings (10, 100, 500, 1000 symbols, 25 000 pairs of each), hash them and check if these hashes are not the same.
+
+ * ![Capture](https://user-images.githubusercontent.com/57493215/96237416-f3d86e00-0fa5-11eb-9896-ed79cfba8d1e.PNG)
+ * ![Capture2](https://user-images.githubusercontent.com/57493215/96252300-6a7f6680-0fba-11eb-8e64-60e39476d7e7.PNG)
+ * ![Capture3](https://user-images.githubusercontent.com/57493215/96252853-4a03dc00-0fbb-11eb-8b1d-92e6ac05a92f.PNG)
+ * ![Capture1000](https://user-images.githubusercontent.com/57493215/96255673-ffd12980-0fbf-11eb-9af4-e4fba7f043f1.PNG)
+ 
+ 
+ 
+
 ## Conclusion
 
 All in all, my hashing function is good, it completes all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
