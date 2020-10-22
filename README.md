@@ -54,7 +54,7 @@ My hashing algorythm can hash 789 strings in 2.6 s. Not the worst results, but i
 ### 5) It is practically impossible to find an input by having only an output.
 
 ### 6) It is practically impossible to find two strings m1 and m2 that hash(m1) = hash(m2).
-100 000 pairs of random strings were tested and no identical hashes were found;
+100 000 pairs of random strings were tested and no identical hashes were found (Collision test 1).
 
 ### 7) Even slightly changed input causes completely different output.
 
@@ -80,13 +80,22 @@ Hash of the second string:
 **Test 1**
 
 In this test we take 100 000 pairs of same sized strings (10, 100, 500, 1000 symbols, 25 000 pairs of each), hash them and check if these hashes are not the same.
+Results:
 
  * ![Capture](https://user-images.githubusercontent.com/57493215/96237416-f3d86e00-0fa5-11eb-9896-ed79cfba8d1e.PNG)
  * ![Capture2](https://user-images.githubusercontent.com/57493215/96252300-6a7f6680-0fba-11eb-8e64-60e39476d7e7.PNG)
  * ![Capture3](https://user-images.githubusercontent.com/57493215/96252853-4a03dc00-0fbb-11eb-8b1d-92e6ac05a92f.PNG)
  * ![Capture1000](https://user-images.githubusercontent.com/57493215/96255673-ffd12980-0fbf-11eb-9af4-e4fba7f043f1.PNG)
  
+ **Test 2**
  
+ In this test we take another 100 000 pairs of strings and hash them just like in the test 1. However, this time two strings are very similar, they differ by only one character. The program calculates the percentage of difference of these two hashes in terms of both bits and hexes.
+ Results:
+ 
+  * ![10](https://user-images.githubusercontent.com/57493215/96919514-8d2ae700-14b4-11eb-93b4-6e0b5356f539.PNG)
+  * ![100](https://user-images.githubusercontent.com/57493215/96919543-974ce580-14b4-11eb-8891-5e61c8faafa0.PNG)
+  * ![Capture](https://user-images.githubusercontent.com/57493215/96919580-a469d480-14b4-11eb-8e94-9ee237d6d9dd.PNG)
+  * ![2palyginimas1000](https://user-images.githubusercontent.com/57493215/96919613-ae8bd300-14b4-11eb-90df-0e1cab401186.PNG)
  
 
 ## Conclusion
