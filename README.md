@@ -99,7 +99,7 @@ Results:
   * ![Capture](https://user-images.githubusercontent.com/57493215/96919580-a469d480-14b4-11eb-8e94-9ee237d6d9dd.PNG)
   * ![2palyginimas1000](https://user-images.githubusercontent.com/57493215/96919613-ae8bd300-14b4-11eb-90df-0e1cab401186.PNG)
   
-The average similarity of the hashes is 50% in terms of bits and 93.73% in terhms of hexes.
+The average similarity of the hashes is 50% in terms of bits and 93.73% in terms of hexes.
 
 Test 1 and test 2 prove that my hashing algorythm meets 6<sup>th</sup> and 7<sup>th</sup> requirements.
 
