@@ -87,6 +87,8 @@ Results:
  * ![Capture3](https://user-images.githubusercontent.com/57493215/96252853-4a03dc00-0fbb-11eb-8b1d-92e6ac05a92f.PNG)
  * ![Capture1000](https://user-images.githubusercontent.com/57493215/96255673-ffd12980-0fbf-11eb-9af4-e4fba7f043f1.PNG)
  
+  There were 0 identical hashes.
+ 
  **Test 2**
  
  In this test we take another 100 000 pairs of strings and hash them just like in the test 1. However, this time two strings are very similar, they differ by only one character. The program calculates the percentage of difference of these two hashes in terms of both bits and hexes.
@@ -96,11 +98,14 @@ Results:
   * ![100](https://user-images.githubusercontent.com/57493215/96919543-974ce580-14b4-11eb-8891-5e61c8faafa0.PNG)
   * ![Capture](https://user-images.githubusercontent.com/57493215/96919580-a469d480-14b4-11eb-8e94-9ee237d6d9dd.PNG)
   * ![2palyginimas1000](https://user-images.githubusercontent.com/57493215/96919613-ae8bd300-14b4-11eb-90df-0e1cab401186.PNG)
- 
+  
+The average similarity of the hashes is 50% in terms of bits and 93.73% in terhms of hexes.
+
+Test 1 and test 2 prove that my hashing algorythm meets 6<sup>th</sup> and 7<sup>th</sup> requirements.
 
 ## Conclusion
 
-All in all, my hashing function is good, it completes all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
+All in all, my hashing function is good, it complies with all 7 requirements, although MD5, SHA-1, SHA-256 or any other well-known hash function probably is still better.
 
 ## Releases:
 
